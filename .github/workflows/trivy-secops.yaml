@@ -32,9 +32,9 @@ jobs:
           scan-type: 'config'
           hide-progress: false
           format: 'sarif'
-          scan-ref: 'charts/argo-image-updater'
+          scan-ref: 'charts/argocd-image-updater'
           output: 'trivy-results.sarif'
-          exit-code: '0'
+          exit-code: '1'
           # severity: 'CRITICAL,HIGH'
           ignore-unfixed: true
 
